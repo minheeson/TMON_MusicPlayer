@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_playlist"
+        android:title="재생목록에 추가"/>
+    <item
+        android:id="@+id/delete_music"
+        android:title="삭제"/>
+
+</menu>

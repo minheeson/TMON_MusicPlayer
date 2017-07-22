@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tmon">#f35817</color>
+    <color name="tmonDark">#e8533e</color>
+    <color name="tmonLightGrey">#e8e8e8</color>
+    <color name="tmonDarkGrey">#565656</color>
+    <color name="tmonMoreDarkGrey">#383838</color>
+</resources>
