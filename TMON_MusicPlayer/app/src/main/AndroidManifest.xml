@@ -4,21 +4,37 @@
 
     <!--미디어 저장소 접근 권한-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- wakeMode 사용 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
+        android:name=".MusicApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_audiotrack_black_24dp"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.MusicPlayerActivity">
+        <activity android:name=".view.activity.MusicPlayerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.SEARCH"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".view.activity.SearchResultActivity"/>
+
+        <service android:name=".presenter.MusicService"
+                 android:enabled="true"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="REWIND"/>
+                <action android:name="TOGGLE_PLAY"/>
+                <action android:name="FORWARD"/>
+                <action android:name="CLOSE"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

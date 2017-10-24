@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="tmon">#f35817</color>
+    <color name="tmonLight">#f99063</color>
     <color name="tmonDark">#e8533e</color>
     <color name="tmonLightGrey">#e8e8e8</color>
     <color name="tmonDarkGrey">#565656</color>

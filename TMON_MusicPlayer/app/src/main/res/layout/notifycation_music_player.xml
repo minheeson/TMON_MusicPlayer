@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.24"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/txt_notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="곡 명"
+            android:textStyle="bold"
+            android:textColor="@color/tmonDarkGrey"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/txt_notification_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아티스트"
+            android:textColor="@color/tmonDarkGrey"
+            android:textSize="8dp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_notification_previous"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="0.1"
+        android:layout_marginLeft="15dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_skip_previous_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btn_notification_play"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="0.1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_play_arrow_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btn_notification_next"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="0.1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_skip_next_black_24dp" />
+
+    <ImageView
+        android:id="@+id/img_notification_album"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.3"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_audiotrack_black_24dp" />
+
+
+</LinearLayout>

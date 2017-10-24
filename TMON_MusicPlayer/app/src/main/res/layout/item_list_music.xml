@@ -17,7 +17,7 @@
         android:layout_marginLeft="10dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
-        android:src="@mipmap/ic_album_default" />
+        android:src="@mipmap/ic_album_default"/>
 
     <LinearLayout
         android:layout_width="0dp"
