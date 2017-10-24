@@ -35,11 +35,17 @@
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 | <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_1.png"  width="200"> | <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_2.png" width="200"> | <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_3.png" width="200"> |
 
+  1) dfdfd
+
+  2) fdfdf
+
+
+
 ##### 1) 로컬에 저장되어 있는 mp3 파일이 없는 경우
 
 ##### 2) List View (목록 뷰)
 
-######     1. 음악 파일의 이미지 썸네일
+######    1. 음악 파일의 이미지 썸네일
 
 ###### 	  2. 곡명이 없을 경우, 파일 이름 사용(확장자 제외)	 
 
@@ -67,9 +73,9 @@
 
 #### 6. 웹 페이지가 로딩되는 동안 보여짐
 
-  dfdkljl
 
-dfjkdlf
+
+> 
 
 
 
