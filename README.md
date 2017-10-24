@@ -1,4 +1,4 @@
-## TMON_Real-time Search Widget
+## TMON_Music Player
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 개발 기간
 
-* 2주 과정 (07.03 ~ 07.14)
+* 3주 과정 (07.15 ~ 08.05)
 
 
 
@@ -29,13 +29,15 @@
 
 ## 개발 내용
 
-|                Configure                 |                  Detail                  |
-| :--------------------------------------: | :--------------------------------------: |
-| <img src="https://github.com/minheeson/TMON_RealTimeSearchWidget/blob/master/screenshot_1.png" width="200"> | <img src="https://github.com/minheeson/TMON_RealTimeSearchWidget/blob/master/screenshot_2.png" width="200"> |
+#### 1. 음악 목록 화면
 
-#### 1. 배경은 폰에 설정된 배경화면 사용
+|              mp3 파일이 없는 경우               |                List View                 |                Card View                 |
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+| <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_1.png"  width="200"> | <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_2.png" width="200"> | <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_3.png" width="200"> |
 
-#### 2. 실시간 검색어 창 내 1~5위 / 6~10위 영역의 width 값은 좌우 15dp 마진 제외하고 가변 (by Zeplin)
+
+
+#### 2. 검색 결과 화면 
 
 #### 3. Refresh 버튼 - 클릭하면 progress 보여주고 갱신
 
