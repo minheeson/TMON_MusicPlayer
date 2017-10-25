@@ -72,7 +72,7 @@
 
 ##### 3) Slide Up
 
-* 재생 화면 Slide Up 할 수 있으
+* 재생 화면 Slide Up 할 수 있음
 * Slide offset 에 따라 배경 그림자가 진해짐 
 
 
@@ -91,27 +91,59 @@
 
 * 목록, 타일 뷰 전환 가능 
 
-#### 3. Refresh 버튼 - 클릭하면 progress 보여주고 갱신
-
-#### 4. 설정 아이콘 - 클릭하면 현재 화면(위젯 설정)을 보여줌
-
-###### 		:: refresh 버튼처럼 bg color 없는 상태로 노출, Android Studio에서 asset 이미지 생성 가능 
-
-#### 5. 검색어 클릭시 검색 상세 화면으로 이동
-
-#### 6. 웹 페이지가 로딩되는 동안 보여짐
 
 
+#### 3. 음악 재생 화면
 
-> 
+|                  재생 화면                   |                 재생 목록 뷰                  |
+| :--------------------------------------: | :--------------------------------------: |
+| <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_9.png" width="200"> | <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_10.png" width="200"> |
+
+##### 1) 재생 화면
+
+* Shuffle 기능
+* Repeat 기능
+* 재생 목록 보여줌
+* 옵션 보여줌
+* 배경 색 gradient 적용
+* 재생 중인 곡의 이미지
+
+##### 2) 재생 목록 뷰
+
+* 재생 목록 구성은 Realm DB 사용 
+* 재생 목록 선택된 상태 
+* 옵션
+* 재생중인 위치 (SeekBar)
+* drag & drop 으로 순서 변경 가능 
 
 
 
+#### 4. Notification
 
+|               Notification               |
+| :--------------------------------------: |
+| <img src="https://github.com/minheeson/TMON_MusicPlayer/blob/master/screenshots/screenshot_11.png" width="200"> |
 
+##### 1) Notification 
 
+* Notification Icon
+* 음악 파일 이미지 썸네일
+* 재생 중일 때 _ ongoing-notification : swipe하여 노티 제거 불가능
+  * 앱이 강제종료 되어도 계속 재생되며, 노티도 그대로 유지
+* 일시 정지일 때 : swipe 하여 노티 제거 가능
+  * 앱이 강제종료되면 노티도 제거됨 
 
+---
 
+### Reference
+
+* Google Play 뮤직 앱
+
+* [SlidingPanelLayout](https://developer.android.com/reference/android/support/v4/widget/SlidingPaneLayout.html)
+
+* [Service](https://developer.android.com/reference/android/app/Service.html)
+
+  ​
 
 
 
